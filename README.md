@@ -525,7 +525,7 @@ __Query__ : si la persistance contient déjà les données au bon format, l'appl
 
 Et comme les données ne sont pas toujours au bon format et pour alléger au maximum la persistance, on va rajouter un système de projection (projection engines) qui va écrire dans un cache (Read Cache) qui fera encore gagner en performance.
 
-_Attention: dans ce schema, l'UI est en bas_ 
+_Attention: dans ce schema, l'UI est en bas_  
 <img width="400" src="https://vladikk.com/images/cqrs/cqrs-diagram.png">
 
 ### Event-Sourcing
@@ -566,7 +566,7 @@ Il sera très simple de faire des tests de comportement avec les commandes et le
 - Etre ouvert et essayer : si ça marche on continue
 - Des équipes limitées à 4 personnes autour d'une idée
 
-_Minimal Viable Product_
+_Minimal Viable Product_  
 <img width="600" src="https://vizteck.com/wp-content/uploads/What-is-MVP-or-Minimum-Viable-Product.jpg">
 
 ### Daily
