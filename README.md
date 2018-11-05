@@ -64,7 +64,7 @@ __Quelques règles :__
     2. Le code, c'est comme les maths, ça paraît toujours simple une fois qu'on a compris
     3. Les phases d'apprentissage sont toujours frustrantes mais on en ressort grandi
     4. Les échecs sont les meilleurs apprentissages
-    5. Ne pas se comparer : un expert qui utilise plein de techniques complexes rend finalement son code inmaintenable
+    5. Ne pas se comparer : malgré toutes ses compétences, un expert peut rendre son code complexe donc inmaintenable
     6. Il faut être intolérant avec l'intolérence, refuser le dénigrement
 
 
@@ -82,9 +82,9 @@ __Principe :__
 
 1. __Red__ - Écrire un test qui fail
 2. __Green__ - Faire passer le test au vert
-3. __Refactor__ - Refactorer le code _(tests compriss)_
+3. __Refactor__ - Refactorer le code _(tests compris)_
 
-![](https://blog.myagilepartner.fr/wp-content/uploads/2017/01/tdd.jpg | width=300)
+<img width="300" src="https://blog.myagilepartner.fr/wp-content/uploads/2017/01/tdd.jpg">
 
 __Quoi tester ?__
 
@@ -99,30 +99,30 @@ __Initialisation__
 2. Créer une classe de test
 3. Créer une 1ère méthode de test vide
 4. Faire une assertion entre true et false : 
-![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png | width=18)
-5. Remplacer false par true : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)
-6. Pas besoin de refacto : ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png | width=18)
+<img width="18" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png">
+1. Remplacer false par true : <img width="18" src="https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png">
+2. Pas besoin de refacto : <img width="18" src="https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png">
 
 __1er test métier__
-1. Appel à un objet métier inexistant : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png | width=18) _[ne compile pas]_
-2. Créer le projet métier & générer la classe vide : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)
-3. Appel à une méthode métier qui n'existe pas : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png | width=18) _[ne compile pas]_
-4. Générer la méthode : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)
-5. Faire une assertion sur une valeur métier attendue : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png | width=18)
-6. Dans la méthode métier, retourner la valeur en dur : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)
-7. Pas besoin de refacto : ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png | width=18)
+1. Appel à un objet métier inexistant : <img width="18" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png"> _[ne compile pas]_
+2. Créer le projet métier & générer la classe vide : <img width="18" src="https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png">
+3. Appel à une méthode métier qui n'existe pas : <img width="18" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png"> _[ne compile pas]_
+4. Générer la méthode : <img width="18" src="https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png">
+5. Faire une assertion sur une valeur métier attendue : <img width="18" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png">
+6. Dans la méthode métier, retourner la valeur en dur : <img width="18" src="https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png">
+7. Pas besoin de refacto : <img width="18" src="https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png">
 
 __2ème test métier__
 
-1. Ajouter une 2ème méthode de test avec une autre valeur attendue : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png | width=18)
-2. Dans la méthode métier se contenter d'ajouter un if avec la nouvelle valeur attendue : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)
-3. Pas besoin de refacto : ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png | width=18)
+1. Ajouter une 2ème méthode de test avec une autre valeur attendue : <img width="18" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png">
+2. Dans la méthode métier se contenter d'ajouter un if avec la nouvelle valeur attendue : <img width="18" src="https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png">
+3. Pas besoin de refacto : <img width="18" src="https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png">
 
 __3ème test métier__
 
-1. Ajouter une 3ème méthode de test avec une autre valeur attendue : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png | width=18)
-2. Dans la méthode métier ajouter un 2ème if : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)
-3. Le code ne respecte pas le simple design, il faut refacto : ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png | width=18)
+1. Ajouter une 3ème méthode de test avec une autre valeur attendue : <img width="18" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png">
+2. Dans la méthode métier ajouter un 2ème if : <img width="18" src="https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png">
+3. Le code ne respecte pas le simple design, il faut refacto : <img width="18" src="https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png">
 
 Un if-else ou un switch-case peut être remplacé par un dictionnaire ou un pattern strategy
 
@@ -204,7 +204,7 @@ _Pour compléter, tous les [principes SOLID](http://www.arolla.fr/blog/2017/02/p
 
 ## Types de tests
 
-![](PyramidTests.png | width=500)
+<img width="600" src="PyramidTests.png">
 
 __Unit Testing__ : valide le comportement métier d'un composant isolé
 
@@ -402,12 +402,12 @@ Il ne faut pas confondre responsabilité et orchestration_
 ### Je fais ça bien
 
 1. Essayer de comprendre comment fonctionne l'existant
-2. Coder les Tests Unitaires de ce que l'on comprend : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)  
+2. Coder les Tests Unitaires de ce que l'on comprend : <img width="18" src="https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png">  
    _astuce : utiliser un outil de code coverage pour s'assurer que tout le code est pris en compte_
-3. Refacto potentielle ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png | width=18)
-4. Coder les Tests Unitaires du nouveau comportement : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png | width=18)
-5. Coder le nouveau comportement : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)  
-6. Refacto potentielle ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png | width=18)
+3. Refacto potentielle <img width="18" src="https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png">
+4. Coder les Tests Unitaires du nouveau comportement : <img width="18" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png">
+5. Coder le nouveau comportement : <img width="18" src="https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png">  
+6. Refacto potentielle <img width="18" src="https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png">
 
 
 ### Je dois faire mon code dans cette classe
@@ -511,7 +511,7 @@ _Exemples : manipulation persistance, transformations, appels externes)_
 
 - __Application Layer__ : point d'entrée de l'API, elle orchestre le domain et l'infrastructure et injecte les implémentations au domain
 
-![](https://docs.microsoft.com/fr-fr/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/media/image8.png | width=600)
+<img width="600" src="https://docs.microsoft.com/fr-fr/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/media/image8.png">
 
 ### CQRS - Command Query Responsability Segregation
 
@@ -525,8 +525,8 @@ __Query__ : si la persistance contient déjà les données au bon format, l'appl
 
 Et comme les données ne sont pas toujours au bon format et pour alléger au maximum la persistance, on va rajouter un système de projection (projection engines) qui va écrire dans un cache (Read Cache) qui fera encore gagner en performance.
 
-_Attention: dans ce schema, l'UI est en bas_  
-![](https://vladikk.com/images/cqrs/cqrs-diagram.png | width=400)
+_Attention: dans ce schema, l'UI est en bas_ 
+<img width="400" src="https://vladikk.com/images/cqrs/cqrs-diagram.png">
 
 ### Event-Sourcing
 
@@ -567,7 +567,7 @@ Il sera très simple de faire des tests de comportement avec les commandes et le
 - Des équipes limitées à 4 personnes autour d'une idée
 
 _Minimal Viable Product_
-![](https://vizteck.com/wp-content/uploads/What-is-MVP-or-Minimum-Viable-Product.jpg)
+<img width="600" src="https://vizteck.com/wp-content/uploads/What-is-MVP-or-Minimum-Viable-Product.jpg">
 
 ### Daily
 
