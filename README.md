@@ -84,7 +84,7 @@ __Principe :__
 2. __Green__ - Faire passer le test au vert
 3. __Refactor__ - Refactorer le code _(tests compriss)_
 
-![](https://blog.myagilepartner.fr/wp-content/uploads/2017/01/tdd.jpg =300x)
+![](https://blog.myagilepartner.fr/wp-content/uploads/2017/01/tdd.jpg | width=300)
 
 __Quoi tester ?__
 
@@ -99,30 +99,30 @@ __Initialisation__
 2. Créer une classe de test
 3. Créer une 1ère méthode de test vide
 4. Faire une assertion entre true et false : 
-![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png =18x)
-5. Remplacer false par true : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png =18x)
-6. Pas besoin de refacto : ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png =18x)
+![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png | width=18)
+5. Remplacer false par true : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)
+6. Pas besoin de refacto : ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png | width=18)
 
 __1er test métier__
-1. Appel à un objet métier inexistant : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png =18x) _[ne compile pas]_
-2. Créer le projet métier & générer la classe vide : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png =18x)
-3. Appel à une méthode métier qui n'existe pas : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png =18x) _[ne compile pas]_
-4. Générer la méthode : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png =18x)
-5. Faire une assertion sur une valeur métier attendue : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png =18x)
-6. Dans la méthode métier, retourner la valeur en dur : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png =18x)
-7. Pas besoin de refacto : ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png =18x)
+1. Appel à un objet métier inexistant : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png | width=18) _[ne compile pas]_
+2. Créer le projet métier & générer la classe vide : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)
+3. Appel à une méthode métier qui n'existe pas : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png | width=18) _[ne compile pas]_
+4. Générer la méthode : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)
+5. Faire une assertion sur une valeur métier attendue : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png | width=18)
+6. Dans la méthode métier, retourner la valeur en dur : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)
+7. Pas besoin de refacto : ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png | width=18)
 
 __2ème test métier__
 
-1. Ajouter une 2ème méthode de test avec une autre valeur attendue : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png =18x)
-2. Dans la méthode métier se contenter d'ajouter un if avec la nouvelle valeur attendue : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png =18x)
-3. Pas besoin de refacto : ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png =18x)
+1. Ajouter une 2ème méthode de test avec une autre valeur attendue : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png | width=18)
+2. Dans la méthode métier se contenter d'ajouter un if avec la nouvelle valeur attendue : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)
+3. Pas besoin de refacto : ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png | width=18)
 
 __3ème test métier__
 
-1. Ajouter une 3ème méthode de test avec une autre valeur attendue : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png =18x)
-2. Dans la méthode métier ajouter un 2ème if : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png =18x)
-3. Le code ne respecte pas le simple design, il faut refacto : ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png =18x)
+1. Ajouter une 3ème méthode de test avec une autre valeur attendue : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png | width=18)
+2. Dans la méthode métier ajouter un 2ème if : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)
+3. Le code ne respecte pas le simple design, il faut refacto : ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png | width=18)
 
 Un if-else ou un switch-case peut être remplacé par un dictionnaire ou un pattern strategy
 
@@ -204,7 +204,7 @@ _Pour compléter, tous les [principes SOLID](http://www.arolla.fr/blog/2017/02/p
 
 ## Types de tests
 
-![](PyramidTests.png =500x)
+![](PyramidTests.png | width=500)
 
 __Unit Testing__ : valide le comportement métier d'un composant isolé
 
@@ -402,12 +402,12 @@ Il ne faut pas confondre responsabilité et orchestration_
 ### Je fais ça bien
 
 1. Essayer de comprendre comment fonctionne l'existant
-2. Coder les Tests Unitaires de ce que l'on comprend : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png =18x)  
+2. Coder les Tests Unitaires de ce que l'on comprend : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)  
    _astuce : utiliser un outil de code coverage pour s'assurer que tout le code est pris en compte_
-3. Refacto potentielle ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png =18x)
-4. Coder les Tests Unitaires du nouveau comportement : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png =18x)
-5. Coder le nouveau comportement : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png =18x)  
-6. Refacto potentielle ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png =18x)
+3. Refacto potentielle ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png | width=18)
+4. Coder les Tests Unitaires du nouveau comportement : ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/WX_circle_red.png | width=18)
+5. Coder le nouveau comportement : ![](https://upload.wikimedia.org/wikipedia/commons/5/50/WX_circle_green.png | width=18)  
+6. Refacto potentielle ![](https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_092_refresh_update_reload_sync_syncronization-128.png | width=18)
 
 
 ### Je dois faire mon code dans cette classe
@@ -511,7 +511,7 @@ _Exemples : manipulation persistance, transformations, appels externes)_
 
 - __Application Layer__ : point d'entrée de l'API, elle orchestre le domain et l'infrastructure et injecte les implémentations au domain
 
-![](https://docs.microsoft.com/fr-fr/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/media/image8.png =600x)
+![](https://docs.microsoft.com/fr-fr/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/media/image8.png | width=600)
 
 ### CQRS - Command Query Responsability Segregation
 
@@ -526,7 +526,7 @@ __Query__ : si la persistance contient déjà les données au bon format, l'appl
 Et comme les données ne sont pas toujours au bon format et pour alléger au maximum la persistance, on va rajouter un système de projection (projection engines) qui va écrire dans un cache (Read Cache) qui fera encore gagner en performance.
 
 _Attention: dans ce schema, l'UI est en bas_  
-![](https://vladikk.com/images/cqrs/cqrs-diagram.png =400x)
+![](https://vladikk.com/images/cqrs/cqrs-diagram.png | width=400)
 
 ### Event-Sourcing
 
